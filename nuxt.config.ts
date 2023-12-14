@@ -12,25 +12,25 @@ export default defineNuxtConfig({
     themeOverrides: {
       Menu: {
         itemTextColorInverted: "#ffffff",
-        itemTextColorHoverInverted: "#302F2F",
-        itemTextColorActiveInverted: "#302F2F",
-        itemColorActiveInverted: "#302F2F",
+        itemTextColorHoverInverted: "#3cc8c3",
+        itemTextColorActiveInverted: "#0000CD",
+        itemColorActiveInverted: "#A0522D",
         itemColorActiveHoverInverted: "#FFDEAD",
 
-        itemTextColorHorizontalInverted: "#302F2F",
-        itemTextColorHoverHorizontalInverted: "#302F2F",
-        itemTextColorActiveHorizontalInverted: "#302F2F",
+        itemTextColorHorizontalInverted: "#00FA9A",
+        itemTextColorHoverHorizontalInverted: "#3cc8c3",
+        itemTextColorActiveHorizontalInverted: "#FF00FF",
       },
 
       common: {
-        primaryColor: "#302F2F",
-        primaryColorPressed: "#FAC119",
-        primaryColorHover: "#FAC119",
+        primaryColor: "#ffffff",
+        primaryColorPressed: "#3cc8c3",
+        primaryColorHover: "#3cc8c3",
         textColor2: "#192335",
       },
       Button: {
         textColor: "#ffff",
-        color: "#FAC119",
+        color: "#3cc8c3",
       },
     },
   },
