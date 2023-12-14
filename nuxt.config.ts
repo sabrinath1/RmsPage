@@ -8,30 +8,30 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  naiveUI: {
-    themeOverrides: {
-      Menu: {
-        itemTextColorInverted: "#ffffff",
-        itemTextColorHoverInverted: "#3cc8c3",
-        itemTextColorActiveInverted: "#0000CD",
-        itemColorActiveInverted: "#A0522D",
-        itemColorActiveHoverInverted: "#FFDEAD",
+  // naiveUI: {
+  //   themeOverrides: {
+  //     Menu: {
+  //       itemTextColorInverted: "#ffffff",
+  //       itemTextColorHoverInverted: "#302F2F",
+  //       itemTextColorActiveInverted: "#0000CD",
+  //       itemColorActiveInverted: "#A0522D",
+  //       itemColorActiveHoverInverted: "#FFDEAD",
 
-        itemTextColorHorizontalInverted: "#00FA9A",
-        itemTextColorHoverHorizontalInverted: "#3cc8c3",
-        itemTextColorActiveHorizontalInverted: "#FF00FF",
-      },
+  //       itemTextColorHorizontalInverted: "#00FA9A",
+  //       itemTextColorHoverHorizontalInverted: "#302F2F",
+  //       itemTextColorActiveHorizontalInverted: "#FF00FF",
+  //     },
 
-      common: {
-        primaryColor: "#ffffff",
-        primaryColorPressed: "#3cc8c3",
-        primaryColorHover: "#3cc8c3",
-        textColor2: "#192335",
-      },
-      Button: {
-        textColor: "#ffff",
-        color: "#3cc8c3",
-      },
-    },
-  },
+  //     common: {
+  //       primaryColor: "#ffffff",
+  //       primaryColorPressed: "#FAC119",
+  //       primaryColorHover: "#FAC119",
+  //       textColor2: "#192335",
+  //     },
+  //     Button: {
+  //       textColor: "#ffff",
+  //       color: "#FAC119",
+  //     },
+  //   },
+  // },
 });

@@ -4,7 +4,7 @@ const social = useSocialRedirect();
 <template>
   <div class="flex w-full justify-center absolute">
     <div
-      class="w-11/12 xl:w-8/12 navbar shadow-lg bg-white justify-between fixed h-16 mt-4 rounded-lg"
+      class="navbar shadow-lg bg-white justify-between fixed h-16 rounded-lg"
     >
       <div class="flex-none lg:hidden z-50">
         <label
@@ -25,7 +25,7 @@ const social = useSocialRedirect();
         </label>
       </div>
 
-      <div class="flex px-2 mx-2">
+      <div class="flex px-2 mx-2 bg-secondary">
         <AtomsLogotipo></AtomsLogotipo>
       </div>
 
