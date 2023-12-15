@@ -3,7 +3,9 @@ const social = useSocialRedirect();
 </script>
 <template>
   <div class="flex w-full justify-center absolute">
-    <div class="navbar bg-primary justify-between fixed h-20 mt-2">
+    <div
+      class="navbar bg-primary justify-between xl:justify-around fixed h-20 lg:h-24"
+    >
       <div class="flex-none lg:hidden z-50">
         <label
           for="my-drawer-3"
@@ -47,14 +49,14 @@ const social = useSocialRedirect();
         >
           <Icon name="mdi:whatsapp" class="text-white transition-all" />
         </button> -->
-        <button
-          class="hidden sm:flex"
+        <!-- <button
+          class="hidden lg:flex"
           text
           style="font-size: 35px"
           @click="social.redirect('instagram')"
         >
           <Icon name="mdi:instagram" class="text-secondary transition-all" />
-        </button>
+        </button> -->
       </div>
     </div>
   </div>

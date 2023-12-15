@@ -123,7 +123,7 @@ const social = useSocialRedirect();
     </div>
 
     <div
-      class="flex justify-center font-extralight space-x-6 md:order-first md:mb-0 text-secondary text-center"
+      class="flex justify-center font-extralight space-x-6 md:order-first md:mb-0 text-secondary text-center xl:justify-around"
     >
       Todos os direitos reservados à RMS Regularização Imobiliária
     </div>

@@ -1,11 +1,11 @@
 <template>
-  <div class="drawer bg-primary z-0">
+  <div class="drawer bg-white z-0 w-full">
     <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
     <div class="drawer-content flex flex-col">
       <!-- Navbar -->
       <OrganismsHeader />
 
-      <div class="mb-20 mt-20">
+      <div class="mb-20 mt-20 xl:w-2/3 bg-red-800">
         <slot></slot>
       </div>
       <OrganismsFooter />
