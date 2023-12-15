@@ -3,7 +3,7 @@ const social = useSocialRedirect();
 </script>
 <template>
   <div class="flex w-full justify-center absolute">
-    <div class="navbar bg-primary justify-between fixed h-16 rounded-lg mt-2">
+    <div class="navbar bg-primary justify-between fixed h-20 mt-2">
       <div class="flex-none lg:hidden z-50">
         <label
           for="my-drawer-3"

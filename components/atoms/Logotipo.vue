@@ -1,6 +1,6 @@
 <template>
   <img
-    class="flex w-full h-20 mt-2"
+    class="flex w-full h-16 lg:h-20"
     src="/img/logotipoescuro.png"
     alt="Logotipo RMS Regularização Imobiliária"
   />
