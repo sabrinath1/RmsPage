@@ -3,13 +3,11 @@ const social = useSocialRedirect();
 </script>
 <template>
   <div class="flex w-full justify-center absolute">
-    <div
-      class="navbar shadow-lg bg-white justify-between fixed h-16 rounded-lg"
-    >
+    <div class="navbar bg-primary justify-between fixed h-16 rounded-lg mt-2">
       <div class="flex-none lg:hidden z-50">
         <label
           for="my-drawer-3"
-          class="btn btn-circle swap swap-rotate bg-white text-primary border-white hover:bg-secondary"
+          class="btn btn-circle swap swap-rotate bg-primary border-primary text-secondary hover:bg-white"
         >
           <svg
             class="fill-current"
@@ -25,32 +23,37 @@ const social = useSocialRedirect();
         </label>
       </div>
 
-      <div class="flex px-2 mx-2 bg-secondary">
+      <div class="flex px-2 mx-2">
         <AtomsLogotipo></AtomsLogotipo>
       </div>
 
       <div
-        class="flex-none hidden lg:block justify-center items-center text-secondary"
+        class="flex-none hidden lg:block justify-center items-center text-white"
       >
         <MoleculesMenu></MoleculesMenu>
       </div>
 
-      <div class="flex items-end space-x-4 mr-6">
-        <button
+      <div class="hidden md:flex items-end space-x-4 mr-6 text-center">
+        <AtomsButtonContact
+          color="yellow"
+          name="Entrar em Contato"
+          shadow="white"
+        ></AtomsButtonContact>
+        <!-- <button
           class="hidden sm:flex"
           text
           style="font-size: 35px"
           @click="social.redirect('whatsapp')"
         >
-          <Icon name="mdi:whatsapp" class="text-primary transition-all" />
-        </button>
+          <Icon name="mdi:whatsapp" class="text-white transition-all" />
+        </button> -->
         <button
           class="hidden sm:flex"
           text
           style="font-size: 35px"
           @click="social.redirect('instagram')"
         >
-          <Icon name="mdi:instagram" class="text-primary transition-all" />
+          <Icon name="mdi:instagram" class="text-secondary transition-all" />
         </button>
       </div>
     </div>

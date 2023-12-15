@@ -8,12 +8,12 @@ const menuOptions = ref<MenuOption[]>([
     key: "home",
   },
   {
-    label: "Sobre",
-    key: "about",
+    label: "Especialistas",
+    key: "experts",
   },
   {
-    label: "Soluções",
-    key: "solutions",
+    label: "Serviços",
+    key: "services",
   },
   {
     label: "Contato",
