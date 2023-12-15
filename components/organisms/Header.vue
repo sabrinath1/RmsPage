@@ -6,7 +6,7 @@ const social = useSocialRedirect();
     <div
       class="navbar bg-primary justify-between xl:justify-around fixed h-20 lg:h-24"
     >
-      <div class="flex-none lg:hidden z-50">
+      <div class="flex-none lg:hidden">
         <label
           for="my-drawer-3"
           class="btn btn-circle swap swap-rotate bg-primary border-primary text-secondary hover:bg-white"

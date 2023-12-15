@@ -5,7 +5,7 @@
       <!-- Navbar -->
       <OrganismsHeader />
 
-      <div class="mb-20 mt-20 xl:w-2/3 bg-red-800">
+      <div class="mb-20 mt-20">
         <slot></slot>
       </div>
       <OrganismsFooter />

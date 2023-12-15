@@ -4,7 +4,7 @@ const social = useSocialRedirect();
 
 <template>
   <div
-    class="menu p-4 w-80 bg-secondary/60 backdrop-blur-sm text-base-content h-full"
+    class="menu p-4 w-72 bg-secondary/60 backdrop-blur-sm text-base-content h-full flex-col"
   >
     <div class="flex justify-end">
       <label
@@ -27,14 +27,14 @@ const social = useSocialRedirect();
     <div class="flex mt-10 justify-start">
       <MoleculesMenu />
     </div>
-    <div class="flex my-10 justify-center">
-      <button
-        class="btn bg-primary text-secondary hover:bg-primary"
-        @click="social.redirect('whatsapp')"
-      >
-        Falar com Especialista
-      </button>
+    <div class="w-full justify-center flex my-6">
+      <AtomsButtonContact
+        color="yellow"
+        shadow="white"
+        name="Falar com Especialista"
+      ></AtomsButtonContact>
     </div>
+
     <div class="flex justify-center mb-8 space-x-6 md:order-last md:mb-0">
       <div class="flex items-end space-x-4 mr-6">
         <button

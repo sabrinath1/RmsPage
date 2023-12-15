@@ -4,5 +4,7 @@ definePageMeta({
 });
 </script>
 <template>
+  <OrganismsBanner />
+  <MoleculesCall />
   <AtomsBackTop />
 </template>
