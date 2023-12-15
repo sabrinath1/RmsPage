@@ -4,17 +4,17 @@ const myList = ref([
     title: "Sobre",
     items: [
       {
-        label: "Quem Somos",
-        key: "#about",
+        label: "Especialistas",
+        key: "#",
       },
 
       {
-        label: "Nossos Diferenciais",
-        key: "#differential",
+        label: "Serviços",
+        key: "#",
       },
       {
-        label: "Soluções",
-        key: "#solutions",
+        label: "Agendar Horário",
+        key: "#",
       },
     ],
   },
@@ -26,21 +26,30 @@ const myList = ref([
         label: "(15)98155-0048",
       },
       {
-        label: "(15)98178-0015",
+        label: "(11)98148-6600",
       },
       {
-        label: "camila@tellcorpassessoria.com.br",
+        label: "contato@rmsregularizacao.com.br",
       },
     ],
   },
   {
-    title: "Funcionamento",
+    title: "Serviços",
     items: [
       {
-        label: "Segunda á Sexta: ",
+        label: " Documentação Imobiliária",
       },
       {
-        label: "09:00 - 18:00 horas",
+        label: "Escritura de Imóveis",
+      },
+      {
+        label: "Inventário e Testamento",
+      },
+      {
+        label: "Usucapião",
+      },
+      {
+        label: "Contratos",
       },
     ],
   },
@@ -49,13 +58,13 @@ const social = useSocialRedirect();
 </script>
 
 <template>
-  <div class="px-4 py-12 mx-auto w-full sm:px-6 lg:px-16 bg-secondary mt-10">
+  <div class="px-4 py-12 mx-auto w-full sm:px-6 lg:px-16 bg-secondary">
     <div class="xl:grid xl:grid-cols-3 xl:gap-8">
-      <div class="flex flex-col justify-center items-center lg:mt-16">
+      <div class="flex flex-col justify-start items-center">
         <img
-          class="w-40 xl:w-56 h-auto xl:-mt-20"
-          src="/img/logotipo-vertical.png"
-          alt="Logotipo Tellcorp Tecnologia"
+          class="w-40 xl:w-56 h-auto"
+          src="/img/logotipoamarelo.png"
+          alt="Logotipo RMS Regularização Imobiliária"
         />
       </div>
       <div
@@ -92,7 +101,7 @@ const social = useSocialRedirect();
     </div>
   </div>
   <div
-    class="px-5 py-5 mx-auto bg-primary w-full sm:px-6 md:flex md:items-center md:justify-between lg:px-20"
+    class="px-5 py-5 mx-auto bg-white w-full sm:px-6 md:flex md:items-center md:justify-between lg:px-20"
   >
     <div class="flex items-end space-x-4 mr-6">
       <button
@@ -114,9 +123,9 @@ const social = useSocialRedirect();
     </div>
 
     <div
-      class="flex justify-center font-extralight space-x-6 md:order-first md:mb-0 text-white text-center"
+      class="flex justify-center font-extralight space-x-6 md:order-first md:mb-0 text-secondary text-center"
     >
-      Todos os direitos reservados à Tellcorp Tecnologia
+      Todos os direitos reservados à RMS Regularização Imobiliária
     </div>
   </div>
 </template>
