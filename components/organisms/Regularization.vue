@@ -1,14 +1,12 @@
 <template>
-  <div class="flex-col w-full bg-red-600">
+  <div class="flex-col w-full">
     <div class="justify-center items-center w-full px-10 self-center">
       <AtomsSemiTitle name="  Porque regularizar seu imóvel?" color="black">
       </AtomsSemiTitle>
     </div>
-    <div
-      class="flex flex-col lg:flex-row w-full h-auto justify-center bg-orange-500"
-    >
+    <div class="flex flex-col lg:flex-row w-full h-auto justify-center mt-10">
       <div
-        class="flex-col px-6 w-full lg:w-1/2 justify-center text-center items-center xl:pl-36 bg-white"
+        class="flex-col px-6 w-full lg:w-1/2 justify-center text-center items-center xl:pl-36"
       >
         <AtomsCardWhat
           title="Segurança Jurídica:"
@@ -27,11 +25,11 @@
           content=" A regularização de um imóvel é fundamental quando se busca obter aluguel com mais garantia, tanto para o proprietário quanto para o inquilino."
         />
       </div>
-      <div class="flex w-full lg:w-1/2 my-auto px-6">
+      <div class="flex w-full lg:w-1/2 px-6">
         <img
           src="/img/home.png"
           alt="Foto de um Imóvel Regularizado"
-          class="w-auto h-auto object-cover"
+          class="w-auto h-auto"
         />
       </div>
     </div>
