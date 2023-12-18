@@ -4,7 +4,7 @@ const social = useSocialRedirect();
 
 <template>
   <div
-    class="menu p-4 w-72 bg-secondary/60 backdrop-blur-sm text-base-content h-full flex-col"
+    class="menu p-4 w-72 bg-secondary/60 backdrop-blur-sm text-base-content h-full flex-col z-50"
   >
     <div class="flex justify-end">
       <label
@@ -30,7 +30,7 @@ const social = useSocialRedirect();
     <div class="w-full justify-center flex my-6">
       <AtomsButtonContact
         color="yellow"
-        shadow="white"
+        shadow="yellow"
         name="Falar com Especialista"
       ></AtomsButtonContact>
     </div>

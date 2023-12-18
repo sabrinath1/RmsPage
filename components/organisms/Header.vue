@@ -2,7 +2,7 @@
 const social = useSocialRedirect();
 </script>
 <template>
-  <div class="flex w-full justify-center absolute">
+  <div class="flex w-full justify-center absolute z-10">
     <div
       class="navbar bg-primary justify-between xl:justify-around fixed h-20 lg:h-24"
     >
@@ -39,7 +39,7 @@ const social = useSocialRedirect();
         <AtomsButtonContact
           color="yellow"
           name="Entrar em Contato"
-          shadow="white"
+          shadow="brown"
         ></AtomsButtonContact>
         <!-- <button
           class="hidden sm:flex"
