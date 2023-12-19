@@ -8,7 +8,7 @@ const props = defineProps<{
 
 <template>
   <div
-    class="block rounded-xl border p-4 shadow-sm hover:ring-1 focus:outline-none focus:ring"
+    class="block rounded-xl border p-4 shadow-sm hover:ring-1 focus:outline-none focus:ring text-center"
   >
     <span
       class="inline-block rounded-lg p-3 justify-center items-center w-24 h-24 mt-5"

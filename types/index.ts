@@ -1,7 +1,7 @@
 export {};
 
 declare global {
-  export interface Services {
+  export interface Service {
     img: string;
     title: string;
     description: string;
