@@ -1,21 +1,26 @@
 function redirect(
   social:
     | "instagram"
-    | "whatsapp"
+    | "whatsapp1"
     | "facebook"
     | "tiktok"
     | "twitter"
     | "linkedin"
+    | "whatsapp2"
 ) {
   let link = "";
 
   switch (social) {
     case "instagram":
-      link = "https://instagram.com/tellcorpassessoria?igshid=MzRlODBiNWFlZA==";
+      link = "https://instagram.com";
       break;
-    case "whatsapp":
+    case "whatsapp1":
       link =
-        "https://api.whatsapp.com/send?phone=5515981550048&text=Ol%C3%A1!%0AGostaria%20de%20saber%20mais%20sobre%20as%20solu%C3%A7%C3%B5es%20de%20Web%20Design%20da%20Tellcorp%20Tecnologia.";
+        "https://api.whatsapp.com/send?phone=5515981550048&text=Ol%C3%A1!%0AGostaria%20de%20saber%20mais%20sobre%20como%20regularizar%20um%20im%C3%B3vel";
+      break;
+    case "whatsapp2":
+      link =
+        "https://api.whatsapp.com/send?phone=5511981486600&text=Ol%C3%A1!%0AGostaria%20de%20saber%20mais%20sobre%20como%20regularizar%20um%20im%C3%B3vel";
       break;
     case "facebook":
       link = "https://www.facebook.com/";
@@ -27,8 +32,7 @@ function redirect(
       link = "https://twitter.com/?lang=pt-br";
       break;
     case "linkedin":
-      link =
-        "https://www.linkedin.com/authwall?trk=bf&trkInfo=AQH2sEr9My9qKQAAAYjpATcYFirOoYltR3qq9HHmvfAXZvAoWGxnVQT_SBw1QrPS313Mr-nSe5WuNvp7xS1CG7mkT6KFas164pNsYc9PgGzYZ57DHwg6ZPstIhgYA0ohTWKCznw=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fcamila-pe%25C3%25B1a-vizzon-domingues-055380148%2F";
+      link = "https://www.linkedin.com";
       break;
   }
   if (link.length) window.open(link, "_blank");

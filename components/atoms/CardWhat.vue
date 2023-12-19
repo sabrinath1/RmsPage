@@ -14,7 +14,7 @@ const props = defineProps<{
         {{ props.title }}
       </h3>
       <p
-        class="w-full px-4 justify-end font-sans text-lg text-secondary font-normal text-justify xl:text-2xl"
+        class="w-full px-4 justify-end font-sans text-lg text-secondary text-justify xl:text-2xl flex my-6 relative items-center mt-4 sm:text-xl font-light"
       >
         {{ props.content }}
       </p>

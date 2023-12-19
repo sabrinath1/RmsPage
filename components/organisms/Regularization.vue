@@ -1,3 +1,6 @@
+<script setup lang="ts">
+const social = useSocialRedirect();
+</script>
 <template>
   <div class="flex-col w-full">
     <div class="justify-center items-center w-full px-10 self-center">
@@ -24,11 +27,12 @@
           title="Alugueres com maior garantia: "
           content=" A regularização de um imóvel é fundamental quando se busca obter aluguel com mais garantia, tanto para o proprietário quanto para o inquilino."
         />
-        <div class="w-full flex justify-center">
+        <div class="w-full flex justify-center mb-10 lg:mb-1">
           <AtomsButtonContact
             name="Quero Regularizar"
             color="yellow"
             shadow="brown"
+            @click="() => social.redirect('whatsapp1')"
           ></AtomsButtonContact>
         </div>
       </div>

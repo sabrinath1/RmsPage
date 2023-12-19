@@ -10,7 +10,7 @@ const props = defineProps<{
       <img :src="props.img" class="w-10 h-auto" />
 
       <p
-        class="w-full font-sans text-accent mx-2 my-6 text-base md:text-xl xl:text-2xl font-normal"
+        class="w-full font-sans text-accent mx-2 text-base md:text-xl l my-6 relative justify-center items-center mt-4 sm:text-xl font-light xl:text-2xl"
       >
         {{ props.content }}
       </p>

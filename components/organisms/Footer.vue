@@ -79,7 +79,7 @@ const social = useSocialRedirect();
             <h3 class="text-xl font-bold tracking-wider text-primary font-mono">
               {{ i.title }}
             </h3>
-            <ul role="list" class="mt-4 space-y-2 text-lg">
+            <ul role="list" class="mt-4 space-y-2 text-base lg:text-lg">
               <li
                 class=""
                 v-for="(subItem, sbIndex) in i.items"
@@ -109,7 +109,7 @@ const social = useSocialRedirect();
         class="hidden sm:flex"
         text
         style="font-size: 35px"
-        @click="social.redirect('whatsapp')"
+        @click="social.redirect('whatsapp2')"
       >
         <Icon name="mdi:whatsapp" class="text-secondary transition-all" />
       </button>

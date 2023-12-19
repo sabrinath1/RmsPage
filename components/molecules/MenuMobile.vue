@@ -41,7 +41,7 @@ const social = useSocialRedirect();
           class="flex"
           text
           style="font-size: 35px"
-          @click="social.redirect('whatsapp')"
+          @click="social.redirect('whatsapp2')"
         >
           <Icon
             name="mdi:whatsapp"

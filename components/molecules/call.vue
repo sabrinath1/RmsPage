@@ -5,18 +5,21 @@
     >
       <AtomsSemiTitle
         name="Você sabia que só é dono quem registra o imóvel?"
-        color="white"
+        color="yellow"
       ></AtomsSemiTitle>
       <AtomsText
         content="Art. 1.245. Transfere-se entre vivos a propriedade mediante o registro do título translativo no Registro de Imóveis. 
 "
+        color="white"
       >
       </AtomsText>
       <AtomsText
         content="§ 1º Enquanto não se registrar o título translativo, o alienante continua a ser havido como dono do imóvel. "
+        color="white"
       ></AtomsText>
       <AtomsText
         content="Por essa razão, ainda que que a escritura esteja regularmente formalizada, a propriedade somente será transferida e inoponível à terceiros, mediante o efetivo registro no Cartório de Registro de Imóveis."
+        color="white"
       ></AtomsText>
     </div>
   </div>

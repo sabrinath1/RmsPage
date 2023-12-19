@@ -25,6 +25,7 @@ const social = useSocialRedirect();
         name="Agendar Horário"
         color="yellow"
         shadow="brown"
+        @click="() => social.redirect('whatsapp1')"
       ></AtomsButtonContact>
 
       <!-- <button

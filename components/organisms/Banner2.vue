@@ -1,9 +1,7 @@
+<script setup lang="ts">
+const social = useSocialRedirect();
+</script>
 <template>
-  <!--
-  Heads up! 👋
-
-  This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
--->
   <div class="w-full">
     <section
       class="relative bg-[url(/img/imagem-banner.png)] bg-cover bg-center bg-no-repeat"
@@ -47,6 +45,7 @@
               name="Saber Mais"
               color="yellow"
               shadow="brown"
+              @click="() => social.redirect('whatsapp2')"
             ></AtomsButtonContact>
             <!-- <a
               href="#"
