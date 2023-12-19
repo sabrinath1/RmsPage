@@ -3,7 +3,9 @@ const social = useSocialRedirect();
 </script>
 <template>
   <div class="flex-col w-full">
-    <div class="justify-center items-center w-full px-10 self-center">
+    <div
+      class="justify-center items-center w-full px-10 self-center bg-primary h-24"
+    >
       <AtomsSemiTitle name="  Porque regularizar seu imóvel?" color="black">
       </AtomsSemiTitle>
     </div>
@@ -30,8 +32,9 @@ const social = useSocialRedirect();
         <div class="w-full flex justify-center mb-10 lg:mb-1">
           <AtomsButtonContact
             name="Quero Regularizar"
-            color="yellow"
+            color="brown"
             shadow="brown"
+            text="white"
             @click="() => social.redirect('whatsapp1')"
           ></AtomsButtonContact>
         </div>

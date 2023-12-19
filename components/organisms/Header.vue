@@ -40,6 +40,7 @@ const social = useSocialRedirect();
           color="yellow"
           name="Entrar em Contato"
           shadow="brown"
+          text="brown"
           @click="() => social.redirect('whatsapp1')"
         ></AtomsButtonContact>
         <!-- <button

@@ -31,6 +31,7 @@ const social = useSocialRedirect();
       <AtomsButtonContact
         color="yellow"
         shadow="yellow"
+        text="brown"
         name="Falar com Especialista"
       ></AtomsButtonContact>
     </div>
