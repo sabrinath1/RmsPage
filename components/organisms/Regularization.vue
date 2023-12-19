@@ -24,6 +24,13 @@
           title="Alugueres com maior garantia: "
           content=" A regularização de um imóvel é fundamental quando se busca obter aluguel com mais garantia, tanto para o proprietário quanto para o inquilino."
         />
+        <div class="w-full flex justify-center">
+          <AtomsButtonContact
+            name="Quero Regularizar"
+            color="yellow"
+            shadow="brown"
+          ></AtomsButtonContact>
+        </div>
       </div>
       <div class="flex w-full lg:w-1/2 px-6">
         <img

@@ -68,7 +68,7 @@ const social = useSocialRedirect();
         />
       </div>
       <div
-        class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-8 mt-12 xl:mt-0 xl:col-span-2 sm:justify-items-center lg:mx-14 sm:mx-1"
+        class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-8 mt-12 xl:mt-0 xl:col-span-2 sm:justify-items-center mx-14 sm:mx-1"
       >
         <div
           class="flex-col md:grid md:grid-cols-1 md:gap-8"
@@ -85,13 +85,14 @@ const social = useSocialRedirect();
                 v-for="(subItem, sbIndex) in i.items"
                 :key="`item_${sbIndex}`"
               >
-                <div class="flex">
-                  <NuxtLink
+                <div class="flex text-white">
+                  <!-- <NuxtLink
                     :to="subItem.label"
                     class="text-base text-white hover:text-primary flex-row"
                   >
                     {{ subItem.label }}
-                  </NuxtLink>
+                  </NuxtLink> -->
+                  {{ subItem.label }}
                 </div>
               </li>
             </ul>

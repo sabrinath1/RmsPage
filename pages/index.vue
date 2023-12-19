@@ -4,8 +4,11 @@ definePageMeta({
 });
 </script>
 <template>
-  <OrganismsBanner />
+  <OrganismsBanner2 />
   <MoleculesCall />
   <OrganismsRegularization />
+  <OrganismsServices></OrganismsServices>
+  <OrganismsContact></OrganismsContact>
+
   <AtomsBackTop />
 </template>
