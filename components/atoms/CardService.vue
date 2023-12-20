@@ -8,14 +8,12 @@ const props = defineProps<{
 
 <template>
   <div
-    class="block rounded-xl border p-4 shadow-sm hover:ring-1 focus:outline-none focus:ring text-center items-center"
+    class="flex flex-col justify-center rounded-xl border p-4 shadow-sm hover:ring-1 focus:outline-none focus:ring text-center items-center w-36 xl:w-40 h-36"
   >
-    <span class="inline-block rounded-lg w-20 h-8 lg:h-16 mx-10 lg:mx-12">
-      <img :src="props.img" class="w-12 h-12" />
-    </span>
+    <img :src="props.img" class="w-12 h-12" />
 
     <h2
-      class="mt-4 lg:mt-1 font-semibold flex justify-center text- center items-center my-3"
+      class="mt-4 lg:mt-1 font-medium flex justify-center text- center items-center my-3"
     >
       {{ props.title }}
     </h2>

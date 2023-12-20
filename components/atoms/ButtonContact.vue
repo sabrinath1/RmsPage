@@ -5,7 +5,6 @@ const props = defineProps<{
   shadow: "yellow" | "brown";
   text: "white" | "brown";
 }>();
-const social = useSocialRedirect();
 </script>
 <template>
   <div class="flex w-full justify-center">

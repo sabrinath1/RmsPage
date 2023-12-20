@@ -7,8 +7,9 @@ definePageMeta({
   <OrganismsBanner2 />
   <MoleculesCall />
   <OrganismsRegularization />
-  <OrganismsServices></OrganismsServices>
-  <OrganismsContact></OrganismsContact>
+  <OrganismsServices />
+  <OrganismsContact />
+  <AtomsSpecialistContact />
 
   <AtomsBackTop />
 </template>
