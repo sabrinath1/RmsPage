@@ -45,6 +45,7 @@ const social = useSocialRedirect();
               name="Saber Mais"
               color="yellow"
               shadow="brown"
+              text="brown"
               @click="() => social.redirect('whatsapp2')"
             ></AtomsButtonContact>
             <!-- <a
