@@ -1,5 +1,11 @@
 <script setup lang="ts">
-const social = useSocialRedirect();
+const props = defineProps<{
+  whatsapp: string;
+  instagram: string;
+}>();
+function redirect(link: string) {
+  window.open(link, "_blank");
+}
 </script>
 <template>
   <div class="flex justify-center w-64">
@@ -8,24 +14,22 @@ const social = useSocialRedirect();
     >
       <button
         class="inline-block border-e p-3 hover:bg-gray-100 focus:relative"
-        title="Edit Product"
+        @click="redirect(props.whatsapp)"
       >
         <Icon name="bxl:whatsapp" class="text-2xl" />
       </button>
 
       <button
         class="inline-block p-3 hover:bg-gray-100 focus:relative border-e"
-        title="Delete Product"
-        @click="social.redirect('instagram')"
+        @click="redirect(props.instagram)"
       >
         <Icon name="bxl:instagram" class="text-2xl" />
       </button>
-      <button
+      <!-- <button
         class="inline-block border-e p-3 hover:bg-gray-100 focus:relative"
-        title="Edit Product"
       >
         <Icon name="majesticons:bookmark-plus-line" class="text-2xl" />
-      </button>
+      </button> -->
     </span>
   </div>
 </template>

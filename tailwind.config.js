@@ -35,6 +35,9 @@ module.exports = {
     },
     
   },
-  plugins: [require("daisyui"),FormKitVariants],
+  plugins: [
+    require('@tailwindcss/typography'),
+    require("daisyui"),
+    FormKitVariants],
 }
 

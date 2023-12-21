@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const props = defineProps<{
   content: string;
-  color: "white" | "black";
+  color?: "white" | "black";
 }>();
 </script>
 <template>

@@ -57,7 +57,6 @@ function handleClick(service: Service) {
   showModal.value = true;
 }
 const social = useSocialRedirect();
-const isLast = true;
 </script>
 <template>
   <div>
