@@ -39,12 +39,11 @@ const social = useSocialRedirect();
           ></AtomsButtonContact>
         </div>
       </div>
-      <div class="flex w-full lg:w-1/2 px-6">
-        <img
-          src="/img/home.png"
-          alt="Foto de um Imóvel Regularizado"
-          class="w-auto h-auto"
-        />
+      <div
+        class="flex w-full lg:w-1/2 px-6 bg-cover bg-center ..."
+        style="background-image: url('/img/home.png')"
+      >
+        <!--  -->
       </div>
     </div>
   </div>

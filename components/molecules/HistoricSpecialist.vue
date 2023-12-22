@@ -4,13 +4,16 @@ const props = defineProps<{
 }>();
 </script>
 <template>
-  <n-timeline>
-    <n-timeline-item
-      v-for="(item, index) in props.specialist?.historic"
-      :key="index"
-      :title="item.course"
-      :content="item.local"
-      :time="`${item.start} - ${item.end}`"
-    />
-  </n-timeline>
+  <div class="mt-10">
+    <n-timeline>
+      <n-timeline-item
+        color="#FBC846"
+        v-for="(item, index) in props.specialist?.historic"
+        :key="index"
+        :title="item.course"
+        :content="item.local"
+        :time="`${item.start} - ${item.end}`"
+      />
+    </n-timeline>
+  </div>
 </template>

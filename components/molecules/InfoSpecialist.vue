@@ -4,7 +4,7 @@ const props = defineProps<{
 }>();
 </script>
 <template>
-  <div class="justify-center">
+  <div class="justify-center mt-10">
     <div class="">
       <h3 class="font-bold text-xl lg:text-3xl text-center">
         {{ props.specialist.name }}

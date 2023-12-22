@@ -1,6 +1,8 @@
 <template>
   <div class="w-full justify-center flex">
-    <div class="w-full lg:w-1/2 px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+    <div
+      class="w-full lg: w-2/3 xl:w-1/2 px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16"
+    >
       <AtomsSemiTitle name="Dúvidas Frequentes" color="black" />
       <div class="space-y-4 w-full mt-10">
         <details
