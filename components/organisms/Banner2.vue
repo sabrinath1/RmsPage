@@ -35,12 +35,6 @@ const social = useSocialRedirect();
           <div
             class="mt-8 flex flex-wrap gap-4 text-center justify-center md:justify-start lg:justify-center"
           >
-            <!-- <a
-              href="#"
-              class="block w-80 rounded bg-primary px-12 py-3 text-sm font-medium text-secondary shadow focus:outline-none focus:ring sm:w-auto"
-            >
-              Saber Mais
-            </a> -->
             <AtomsButtonContact
               name="Saber Mais"
               color="yellow"
@@ -48,12 +42,6 @@ const social = useSocialRedirect();
               text="brown"
               @click="() => social.redirect('whatsapp2')"
             ></AtomsButtonContact>
-            <!-- <a
-              href="#"
-              class="block w-80 rounded bg-primary px-12 py-3 text-sm font-medium text-secondary shadow focus:outline-none focus:ring sm:w-auto"
-            >
-              Learn More
-            </a> -->
           </div>
         </div>
       </div>

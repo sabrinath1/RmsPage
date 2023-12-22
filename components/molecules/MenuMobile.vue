@@ -33,17 +33,13 @@ const social = useSocialRedirect();
         shadow="yellow"
         text="brown"
         name="Falar com Especialista"
+        @click="social.redirect('whatsapp2')"
       ></AtomsButtonContact>
     </div>
 
     <div class="flex justify-center mb-8 space-x-6 md:order-last md:mb-0">
       <div class="flex items-end space-x-4 mr-6">
-        <button
-          class="flex"
-          text
-          style="font-size: 35px"
-          @click="social.redirect('whatsapp2')"
-        >
+        <button class="flex" text style="font-size: 35px">
           <Icon
             name="mdi:whatsapp"
             class="text-white hover:text-secondary transition-all"

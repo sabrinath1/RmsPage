@@ -12,8 +12,8 @@ const props = defineProps<{
       />
       <div class="flex flex-col justify-center -mt-32">
         <AtomsSpecialistContact
-          :whatsapp="specialist.links.whatsapp"
-          :instagram="specialist.links.instagram"
+          :whatsapp="props.specialist.links.whatsapp"
+          :instagram="props.specialist.links.instagram"
         />
       </div>
     </div>
