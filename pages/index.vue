@@ -10,7 +10,7 @@ definePageMeta({
     <OrganismsRegularization />
     <OrganismsServices id="services" />
 
-    <OrganismsListSpecialist id="specilists" />
+    <OrganismsListSpecialist id="specialists" />
     <OrganismsContact id="contact" />
     <MoleculesDoubts />
 
