@@ -3,7 +3,7 @@ const social = useSocialRedirect();
 </script>
 <template>
   <div class="justify-center w-full px-10">
-    <AtomsSemiTitle name="Agende uma Reunião" color="black"></AtomsSemiTitle>
+    <!-- <AtomsSemiTitle name="Agende uma Reunião" color="black"></AtomsSemiTitle> -->
 
     <AtomsText
       content=" Somos uma equipe comprometida de profissionais apaixonados pelo que
@@ -20,13 +20,6 @@ const social = useSocialRedirect();
         text="white"
         @click="() => social.redirect('whatsapp1')"
       ></AtomsButtonContact>
-
-      <!-- <button
-        class="btn bg-primary text-white hover:bg-secondary"
-        @click="social.redirect('whatsapp')"
-      >
-        Agendar Horário
-      </button> -->
     </div>
   </div>
 </template>

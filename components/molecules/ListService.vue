@@ -59,8 +59,8 @@ function handleClick(service: Service) {
 const social = useSocialRedirect();
 </script>
 <template>
-  <div>
-    <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 text-justify">
+  <div class="flex justify-center">
+    <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 text-center">
       <AtomsCardService
         @click="handleClick(service)"
         class="even:bg-secondary odd:bg-primary even:text-white odd:text-secondary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ..."

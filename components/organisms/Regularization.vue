@@ -3,9 +3,7 @@ const social = useSocialRedirect();
 </script>
 <template>
   <div class="flex-col w-full">
-    <div
-      class="justify-center items-center w-full px-10 self-center bg-primary h-24"
-    >
+    <div class="flex justify-center items-center w-full bg-primary">
       <AtomsSemiTitle name="  Porque regularizar seu imóvel?" color="black">
       </AtomsSemiTitle>
     </div>

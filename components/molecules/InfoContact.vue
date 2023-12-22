@@ -3,7 +3,7 @@
   <div
     class="justify-center lg:justify-end items-center w-full px-10 self-center lg:mr-56"
   >
-    <AtomsSemiTitle name="Fale Conosco!" color="black"></AtomsSemiTitle>
+    <!-- <AtomsSemiTitle name="Fale Conosco!" color="black"></AtomsSemiTitle> -->
     <div class="flex-col items-center">
       <AtomsCardInfo
         img="img/whatsapp.png"

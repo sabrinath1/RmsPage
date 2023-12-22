@@ -5,7 +5,7 @@ const props = defineProps<{
 }>();
 </script>
 <template>
-  <div class="w-full flex flex-col justify-center items-center h-auto pb-20">
+  <div class="w-full flex flex-col justify-center items-center h-auto lg:pb-10">
     <div
       class="px-4 sm:px-6 lg:py-12 lg:px-8 flex flex-col md:flex-row mx-1 xl:mx-20 w-full xl:w-2/3 md:-mt-20 lg:-mt-0 mt-6"
       :class="{

@@ -5,7 +5,7 @@ const props = defineProps<{
 }>();
 </script>
 <template>
-  <div class="flex flex-row mt-6 relative justify-center w-full">
+  <div class="flex justify-center w-full">
     <h2
       class="font-bold text-center my-4 text-3xl sm:text-4xl"
       :class="{

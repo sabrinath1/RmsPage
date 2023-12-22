@@ -1,9 +1,11 @@
 <template>
-  <div class="w-full justify-center flex">
+  <div class="w-full justify-center flex flex-col items-center">
+    <div class="flex justify-center items-center w-full bg-primary">
+      <AtomsSemiTitle name="Dúvidas Frequentes" color="black"> </AtomsSemiTitle>
+    </div>
     <div
       class="w-full lg: w-2/3 xl:w-1/2 px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16"
     >
-      <AtomsSemiTitle name="Dúvidas Frequentes" color="black" />
       <div class="space-y-4 w-full mt-10">
         <details
           class="group border-s-4 border-primary bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"

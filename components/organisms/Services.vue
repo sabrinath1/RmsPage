@@ -6,24 +6,27 @@
 <template>
   <div class="w-full justify-center flex">
     <section>
-      <div class="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+      <div class="flex lg:hidden justify-center items-center w-full bg-primary">
+        <AtomsSemiTitle name="Nossos Serviços" color="black"> </AtomsSemiTitle>
+      </div>
+      <div
+        class="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16 justify-center items-center"
+      >
         <div
-          class="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16"
+          class="grid grid-cols-1 gap-y-8 lg:grid-cols-2 items-center lg:gap-x-16"
         >
           <div
             class="mx-auto max-w-lg text-center lg:mx-0 ltr:lg:text-left rtl:lg:text-right"
           >
-            <AtomsSemiTitle
-              name="Nossos Serviços"
-              color="black"
-            ></AtomsSemiTitle>
+            <div class="hidden lg:flex">
+              <AtomsSemiTitle
+                name="Nossos Serviços"
+                color="black"
+              ></AtomsSemiTitle>
+            </div>
 
             <AtomsText
               content="O processo de regularização pode variar de acordo com a legislação local e a situação específica do imóvel. Conte com a orientação de  nossos profissionais especializados para garantir que todos os trâmites sejam realizados corretamente.
-
-
-
-
 
 
 "
