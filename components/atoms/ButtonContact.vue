@@ -7,7 +7,7 @@ const props = defineProps<{
 }>();
 </script>
 <template>
-  <div class="flex w-full justify-center -z-30">
+  <div class="flex w-full justify-center">
     <button
       class="text-secondary block w-60 rounded bg-primary px-12 py-3 text-sm font-medium border-2 focus:outline-none focus:ring sm:w-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ..."
       :class="{

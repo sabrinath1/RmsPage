@@ -1,8 +1,6 @@
-<!--
-  Heads up! 👋
-
-  This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
--->
+<script setup lang="ts">
+const social = useSocialRedirect();
+</script>
 <template>
   <div class="w-full justify-center flex -z-30">
     <section>
@@ -43,6 +41,7 @@
               color="yellow"
               shadow="brown"
               text="brown"
+              @click="() => social.redirect('whatsapp2')"
             ></AtomsButtonContact>
           </div>
           <MoleculesListService />
