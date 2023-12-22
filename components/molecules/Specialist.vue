@@ -5,17 +5,19 @@ const props = defineProps<{
 }>();
 </script>
 <template>
-  <div class="w-full flex flex-col justify-center items-center h-auto lg:pb-10">
+  <div
+    class="w-full flex flex-col justify-center items-center h-auto lg:pb-10 mt-4 px-10"
+  >
     <div
-      class="px-4 sm:px-6 lg:py-12 lg:px-8 flex flex-col md:flex-row mx-1 xl:mx-20 w-full xl:w-2/3 md:-mt-20 lg:-mt-0 mt-6"
+      class="px-4 sm:px-6 lg:py-12 lg:px-8 flex flex-col md:flex-row xl:mx-20 w-full xl:w-2/3 lg:-mt-0 mt-6 border-2 rounded-xl border-secondary"
       :class="{
         'md:flex-row-reverse': props.reverse,
       }"
     >
-      <div class="flex w-auto md:w-72 lg:w-auto justify-center">
+      <div class="flex w-auto md:w-72 lg:w-auto justify-start">
         <MoleculesContactSpecialist :specialist="props.specialist" />
       </div>
-      <div class="flex w-full mt-32 lg:mt-0 h-auto">
+      <div class="flex w-full mt-32 lg:mt-0 h-auto mb-10">
         <n-tabs
           default-value="bio"
           justify-content="space-evenly"

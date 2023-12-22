@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col justify-center items-center">
+  <div class="flex flex-col justify-center items-center mt-10">
     <div class="flex justify-center items-center w-full bg-primary">
       <AtomsSemiTitle name="Entre em contato conosco!" color="black">
       </AtomsSemiTitle>

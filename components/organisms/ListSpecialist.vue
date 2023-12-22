@@ -99,12 +99,12 @@ function check(index: number) {
 }
 </script>
 <template>
-  <div>
+  <div class="">
     <div class="flex justify-center items-center w-full bg-primary">
       <AtomsSemiTitle name="Nossos Especilistas" color="black">
       </AtomsSemiTitle>
     </div>
-    <div class="flex flex-col justify-center">
+    <div class="flex flex-col justify-center xl:mt-10">
       <MoleculesSpecialist
         v-for="(specialist, index) in specialists"
         :specialist="specialist"
