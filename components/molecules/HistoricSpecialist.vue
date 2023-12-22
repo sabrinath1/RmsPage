@@ -4,7 +4,7 @@ const props = defineProps<{
 }>();
 </script>
 <template>
-  <div class="mt-10">
+  <div class="mt-10 -z-30">
     <n-timeline>
       <n-timeline-item
         color="#FBC846"
