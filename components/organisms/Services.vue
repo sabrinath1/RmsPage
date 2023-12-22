@@ -4,7 +4,7 @@
   This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
 -->
 <template>
-  <div class="w-full justify-center flex">
+  <div class="w-full justify-center flex -z-30">
     <section>
       <div class="flex lg:hidden justify-center items-center w-full bg-primary">
         <AtomsSemiTitle name="Nossos Serviços" color="black"> </AtomsSemiTitle>

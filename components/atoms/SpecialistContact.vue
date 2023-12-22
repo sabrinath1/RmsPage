@@ -8,7 +8,7 @@ function redirect(link: string) {
 }
 </script>
 <template>
-  <div class="flex justify-center w-64">
+  <div class="flex justify-center w-64 -z-30">
     <span
       class="inline-flex overflow-hidden rounded-md bg-white/60 shadow-sm border backdrop-blur-sm text-black border-blackClass Properties Preview border-inherit border-color: inherit; border-current border-color: currentColor; border-transparent border-color: transparent; border-black"
     >

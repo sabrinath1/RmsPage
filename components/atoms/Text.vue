@@ -6,7 +6,7 @@ const props = defineProps<{
 </script>
 <template>
   <div
-    class="flex w-full my-6 relative justify-center items-center mt-4 sm:text-xl font-light xl:text-2xl text-justify"
+    class="flex w-full my-6 relative justify-center items-center mt-4 sm:text-xl font-light xl:text-2xl text-justify -z-30"
     :class="{
       'text-white': props.color === 'white',
       'text-black': props.color === 'black',

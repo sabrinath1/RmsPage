@@ -7,7 +7,7 @@ const props = defineProps<{
 </script>
 <template>
   <div
-    class="flex flex-col justify-center w-96 md:w-72 lg:w-96 items-center text-center justify-items-center"
+    class="flex flex-col justify-center w-96 md:w-72 lg:w-96 items-center text-center justify-items-center -z-30"
   >
     <img
       alt="Foto Especialista"

@@ -99,7 +99,7 @@ function check(index: number) {
 }
 </script>
 <template>
-  <div class="">
+  <div class="-z-30">
     <div class="flex justify-center items-center w-full bg-primary">
       <AtomsSemiTitle name="Nossos Especilistas" color="black">
       </AtomsSemiTitle>

@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full flex justify-center my-10 text-white -z-10">
+  <div class="w-full flex justify-center my-10 text-white -z-50">
     <div
-      class="w-full xl:w-3/4 justify-center text-center bg-secondary rounded-lg h-auto p-6 flex-col mx-6 z-0"
+      class="w-full xl:w-3/4 justify-center text-center bg-secondary rounded-lg h-auto p-6 flex-col mx-6 -z-50"
     >
       <AtomsSemiTitle
         name="Você sabia que só é dono quem registra o imóvel?"

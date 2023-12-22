@@ -4,7 +4,7 @@ const social = useSocialRedirect();
 <template>
   <div class="w-full">
     <section
-      class="relative bg-[url(/img/imagem-banner.png)] bg-cover bg-center bg-no-repeat"
+      class="relative bg-[url(/img/imagem-banner.png)] bg-cover bg-center bg-no-repeat -z-30"
     >
       <div
         class="absolute inset-0 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"

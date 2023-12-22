@@ -2,9 +2,9 @@
 const social = useSocialRedirect();
 </script>
 <template>
-  <div class="flex w-full justify-center absolute z-10">
+  <div class="flex w-full justify-center lg:absolute">
     <div
-      class="navbar bg-primary justify-between xl:justify-around fixed h-20 lg:h-24"
+      class="navbar bg-primary justify-between xl:justify-around fixed h-20 lg:h-24 w-full"
     >
       <div class="flex-none lg:hidden">
         <label
