@@ -9,7 +9,7 @@ const menuOptions = ref<MenuOption[]>([
   },
   {
     label: "Especialistas",
-    key: "experts",
+    key: "specialists",
   },
   {
     label: "Serviços",

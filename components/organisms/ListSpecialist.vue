@@ -100,7 +100,7 @@ function check(index: number) {
 </script>
 <template>
   <div class="-z-30">
-    <div class="flex justify-center items-center w-full bg-primary">
+    <div class="flex justify-center items-center w-full bg-primary -z-50">
       <AtomsSemiTitle name="Nossos Especilistas" color="black">
       </AtomsSemiTitle>
     </div>

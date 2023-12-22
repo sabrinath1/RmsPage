@@ -6,12 +6,12 @@ definePageMeta({
 <template>
   <div>
     <OrganismsBanner2 />
-    <MoleculesCall />
+    <MoleculesCall id="home" />
     <OrganismsRegularization />
-    <OrganismsServices />
+    <OrganismsServices id="services" />
 
-    <OrganismsListSpecialist />
-    <OrganismsContact />
+    <OrganismsListSpecialist id="specilists" />
+    <OrganismsContact id="contact" />
     <MoleculesDoubts />
 
     <AtomsBackTop />
