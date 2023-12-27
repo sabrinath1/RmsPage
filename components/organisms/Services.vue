@@ -2,7 +2,7 @@
 const social = useSocialRedirect();
 </script>
 <template>
-  <div class="w-full justify-center flex -z-30">
+  <div class="w-full justify-center flex">
     <section>
       <div class="flex lg:hidden justify-center items-center w-full bg-primary">
         <AtomsSemiTitle name="Nossos Serviços" color="black"> </AtomsSemiTitle>

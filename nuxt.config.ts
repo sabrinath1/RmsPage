@@ -13,13 +13,15 @@ export default defineNuxtConfig({
       shared: {
         Menu: {
           itemTextColorInverted: "#ffffff",
+          itemTextColorHover: "#ffffff",
           itemTextColorHoverInverted: "#302F2F",
           itemTextColorActiveInverted: "#0000CD",
           itemColorActiveInverted: "#A0522D",
           itemColorActiveHoverInverted: "#FFDEAD",
 
-          itemTextColorHorizontalInverted: "#00FA9A",
+          itemTextColorHorizontalInverted: "#ffffff",
           itemTextColorHoverHorizontalInverted: "#302F2F",
+          itemTextColorHoverHorizontal: "#302F2F",
           itemTextColorActiveHorizontalInverted: "#FF00FF",
         },
 

@@ -4,12 +4,11 @@ definePageMeta({
 });
 </script>
 <template>
-  <div>
+  <div class="relative">
     <OrganismsBanner2 />
     <MoleculesCall id="home" />
     <OrganismsRegularization />
     <OrganismsServices id="services" />
-
     <OrganismsListSpecialist id="specialists" />
     <OrganismsContact id="contact" />
     <MoleculesDoubts />

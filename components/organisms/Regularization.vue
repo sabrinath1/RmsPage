@@ -1,8 +1,8 @@
 <script setup lang="ts">
 const social = useSocialRedirect();
 </script>
-<template class="-z-30">
-  <div class="flex-col w-full -z-30">
+<template class="">
+  <div class="flex-col w-full">
     <div class="flex justify-center items-center w-full bg-primary">
       <AtomsSemiTitle name="  Porque regularizar seu imóvel?" color="black">
       </AtomsSemiTitle>

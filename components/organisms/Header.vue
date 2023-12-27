@@ -2,7 +2,7 @@
 const social = useSocialRedirect();
 </script>
 <template>
-  <div class="flex w-full justify-center lg:absolute">
+  <div class="flex w-full justify-center top-0 sticky z-10">
     <div
       class="navbar bg-primary justify-between xl:justify-around fixed h-20 lg:h-24 w-full"
     >
@@ -43,22 +43,6 @@ const social = useSocialRedirect();
           text="brown"
           @click="() => social.redirect('whatsapp1')"
         ></AtomsButtonContact>
-        <!-- <button
-          class="hidden sm:flex"
-          text
-          style="font-size: 35px"
-          @click="social.redirect('whatsapp')"
-        >
-          <Icon name="mdi:whatsapp" class="text-white transition-all" />
-        </button> -->
-        <!-- <button
-          class="hidden lg:flex"
-          text
-          style="font-size: 35px"
-          @click="social.redirect('instagram')"
-        >
-          <Icon name="mdi:instagram" class="text-secondary transition-all" />
-        </button> -->
       </div>
     </div>
   </div>

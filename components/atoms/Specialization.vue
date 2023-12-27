@@ -4,8 +4,8 @@ const props = defineProps<{
 }>();
 </script>
 <template>
-  <div class="mt-10 -z-30">
-    <div class="-z-30">
+  <div class="mt-10">
+    <div class="">
       <n-list>
         <n-list-item v-for="s in specialist.skills">
           {{ s }}

@@ -2,9 +2,9 @@
 const social = useSocialRedirect();
 </script>
 <template>
-  <div class="w-full">
+  <div class="w-full relative">
     <section
-      class="relative bg-[url(/img/imagem-banner.png)] bg-cover bg-center bg-no-repeat -z-30"
+      class="bg-[url(/img/imagem-banner.png)] bg-cover bg-center bg-no-repeat"
     >
       <div
         class="absolute inset-0 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"
@@ -40,7 +40,7 @@ const social = useSocialRedirect();
               color="yellow"
               shadow="brown"
               text="brown"
-              @click="() => social.redirect('whatsapp2')"
+              @click="() => social.redirect('whatsapp1')"
             ></AtomsButtonContact>
           </div>
         </div>

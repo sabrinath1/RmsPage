@@ -5,8 +5,8 @@ const props = defineProps<{
 }>();
 </script>
 <template>
-  <div class="flex justify-end w-full -z-30">
-    <div class="flex justify-start w-full h-auto items-center -z-30">
+  <div class="flex justify-end w-full">
+    <div class="flex justify-start w-full h-auto items-center">
       <img :src="props.img" class="w-10 h-auto" />
 
       <p
